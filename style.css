@@ -12,6 +12,9 @@
   font-size: 45px;
   font-weight: 900;
 }
+.text-center{
+  text-align: center;
+}
 header{
   background-color: #FFF8F3;
   padding-top: 50px;
@@ -94,10 +97,8 @@ nav{
   height: 674px;
   vertical-align: middle;
 }
-#about{
-  margin-top: 130px;
-  margin-left: 230px;
-  margin-right: 230px;
+#about, #skills, #resume{
+  padding-top: 130px;
 }
 .about-container{
   margin: 0 auto;
@@ -140,9 +141,6 @@ nav{
   font-weight: bold;
   line-height: 30px;
 }
-#skills{
-  padding-top: 130px;
-}
 .skills-container{
   width: 71%;
   max-width: 1140px;
@@ -156,7 +154,7 @@ nav{
   gap: 24px;
 }
 .skills-card{
-  box-shadow: 0 6px 50px 0 #00000085;
+  box-shadow: 0 6px 50px 0 #000000;
   border-radius: 5px;
   padding: 30px;
   text-align: justify;
@@ -175,5 +173,84 @@ nav{
 .skills-card p{
   font-size: 16px;
   line-height: 28px;
+  color: #757575;
+}
+.resume-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+.resume-container hr{
+  margin: 30px 0;
+}
+ .section-title{
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.resume-card{
+  max-width: 511px;
+  margin-right: 47px;
+}
+.card-title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #474747;
+}
+.card-info{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #757575
+}
+.card-text{
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #757575
+}
+
+/* footer */
+footer{
+  /* width: 71%;
+  max-width: 1140px; */
+  background-color: #FFF8F3;
+}
+.social-container{
+  margin-top: 130px;
+  display: flex;
+  padding: 130px 230px;
+  gap: 117px;
+  justify-content: space-around;
+}
+.social-container h2{
+  font-size: 25px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.social-container p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+/* .icons{
+  
+} */
+.icons a{
+  color: #FD6E0A;
+  margin-right: 24px;
+}
+form input[type="text"], form input[type="email"], form textarea {
+  width: 461px;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 30px;
+  margin-bottom: 30px;
+  background-color: #FFFFFF;
   color: #757575;
 }
